@@ -1,0 +1,15 @@
+.top-section{
+  color: $header-font;
+  background-image: url("../img/bg1.jpg");
+  height: 700px;
+  .container{
+    h1{font-size: -webkit-xxx-large;
+    width: 50%;
+    margin: auto;}
+    margin-top: 200px;
+    text-align: center;
+  }
+  p{
+  font-size: 16px; 
+  }
+}

@@ -1,0 +1,94 @@
+/*!
+ * @author Chirag Gehlot
+ * @version 1.0.0
+ */
+
+.clear:before, .clear:after {
+  content: ' ';
+  display: table;
+}
+
+.clear {
+  *zoom: 1;
+}
+.clear:after {
+  clear: both;
+}
+
+body {
+  font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
+  background: #fff;
+  color: #444;
+  margin: 0px;
+}
+
+.header {
+  height: 60px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.logo {
+  margin: 20px 0 0 80px;
+  float: left;
+}
+.logo a {
+  text-decoration: none;
+  font-weight: 400;
+  color: white;
+  font-size: medium;
+}
+
+.nav {
+  float: right;
+}
+.nav ul {
+  list-style: none;
+  margin: 20px 50px 100px 80px;
+}
+.nav ul li {
+  display: inline;
+}
+.nav ul li a {
+  text-decoration: none;
+  font-weight: 300;
+  color: #ffffff;
+  padding-right: 10px;
+}
+
+.top-section {
+  color: #ffffff;
+  background-image: url("../img/bg1.jpg");
+  height: 700px;
+}
+.top-section .container {
+  margin-top: 200px;
+  text-align: center;
+}
+.top-section .container h1 {
+  font-size: -webkit-xxx-large;
+  width: 50%;
+  margin: auto;
+}
+.top-section p {
+  font-size: 16px;
+}
+
+::selection {
+  background: #333;
+  color: #fff;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #333;
+  color: #fff;
+  text-shadow: none;
+}
+
+::-webkit-selection {
+  background: #333;
+  color: #fff;
+  text-shadow: none;
+}
+
+/*# sourceMappingURL=style.min.css.map */
